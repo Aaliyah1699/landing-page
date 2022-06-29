@@ -1,0 +1,89 @@
+/* body {
+    display: flex;
+} */
+/* header */
+/* all */
+.head, .one, #footer {
+    color: white;
+    background-color: #E37383;
+}
+/* links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* section 1 */
+/* all */
+ .one { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+} 
+/* image  */
+ #me {
+    max-width: 35%;
+    max-height: 30%;
+    border-radius: 17px;
+    align-self: flex-end;
+} 
+/* button  */
+.like {
+    background-color: plum;
+}
+/* .intro .liyah -- para + h1 */
+
+/* section 2 */
+/* h2  */
+.fun {
+    align-self: center;
+}
+/* all */
+.two {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-flow: column wrap;
+    
+}
+.two , img {
+    max-width: 30%;
+    max-height: 30%;
+    margin: 10px;
+    gap: 5px;
+}
+ .p {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    /* flex-wrap: wrap; */
+}
+
+/* section 3  */
+.quote {
+    background-color: #FAA0A0;
+    padding: 70px;
+    font-size: 35px;
+    font-family: 'Smooch', Courier,sans-serif;
+}
+
+/* section 4 */
+/* all */
+.fourth {}
+/* button */
+.up {
+    background-color: salmon;
+}
+
+#footer {
+    display: flex;
+    position: absolute;
+    flex: 2 1 100%;
+    height: 2.5rem;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
