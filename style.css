@@ -23,14 +23,23 @@ margin: 40px;
 display: flex;
 align-items: flex-start;
 flex-flow: column wrap;
-padding: 30px;
+padding: 10px;
 
 
 }
-.fourth h3, p {
+.fourth h3 {
     font-family: 'Arima', Courier,sans-serif;
-    
+    position: relative;
+    top: 20px;
+    left: 110px;
 }
+.fourth p {
+    position: relative;
+    top: -10px;
+    left: 110px;
+    font-family: 'Arima', Courier,sans-serif;
+}
+
 #up {
     background-color: #FFC000;
     border-color: white;
@@ -38,6 +47,10 @@ padding: 30px;
     border-radius: 6px;
     align-self: flex-end;
     padding: 5px 17px 5px 17px;
+    flex: 1 1 auto;
+    position: relative;
+    top: -60px;
+    left: -120px;
 }
 /* footer  */
 #footer {
