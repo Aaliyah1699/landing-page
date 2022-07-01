@@ -20,16 +20,24 @@ body{
 background-color: #FFE5B4;
 border-radius: 20px;
 margin: 40px;
+display: flex;
+align-items: flex-start;
+flex-flow: column wrap;
+padding: 30px;
+
+
 }
-.fourth h3 {
+.fourth h3, p {
+    font-family: 'Arima', Courier,sans-serif;
     
 }
-.up {
+#up {
     background-color: #FFC000;
     border-color: white;
     color: white;
     border-radius: 6px;
-    padding: 3px 15px 3px 15px ;
+    align-self: flex-end;
+    padding: 5px 17px 5px 17px;
 }
 /* footer  */
 #footer {
