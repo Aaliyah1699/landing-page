@@ -17,12 +17,15 @@ a {
     top: -20px;
     font-size: 18px;
     padding: 5px;
+    font-family: 'Oswald',Courier,sans-serif;
 }
 .head {
 }
 #a {
+    font-family: 'The Nautigal', Courier,sans-serif;
     position: relative;
     left: 90px;
+    font-size: 25px;
 }
 .head, .one {
     background-color: #F4BB44;
@@ -40,14 +43,18 @@ a {
 }
 .liyah {
     font-size: 48px;
+    font-family: 'The Nautigal', Courier,sans-serif;
 }
 .intro {
     overflow-wrap: break-word;
     max-width: 300px;
     font-size: 20px;
+    font-family: 'Oswald',Courier,sans-serif;
 }
 .liyah, .intro {
-    font-family: ;
+    position: relative;
+    left: ;
+    top: ;
 }
 /* section 2  */
 .two {
@@ -61,7 +68,9 @@ a {
 }
 #fun {
     position: absolute;
-    bottom: 350px;
+    bottom: 250px;
+    font-family: 'Oswald',Courier,sans-serif;
+    font-size: 28px;
 }
 
 .two img {
@@ -73,6 +82,11 @@ a {
 #pink {
     border-radius: 10px;
     max-height: 300px;
+}
+.p {
+    font-family: 'Oswald',Courier,sans-serif;
+    position: relative;
+    left: 14px;
 }
 
 /* section 3  */
