@@ -13,19 +13,18 @@ a {
     text-decoration: none;
     color: #8B8000;
     position: relative;
-    left: 600px;
-    top: -20px;
+    left: 900px;
+    top: -21px;
     font-size: 18px;
     padding: 5px;
     font-family: 'Oswald',Courier,sans-serif;
 }
-.head {
-}
 #a {
     font-family: 'The Nautigal', Courier,sans-serif;
     position: relative;
-    left: 90px;
-    font-size: 25px;
+    left: 150px;
+    top: 10px;
+    font-size: 30px;
 }
 .head, .one {
     background-color: #F4BB44;
@@ -38,8 +37,18 @@ a {
     max-height: 30%;
     border-radius: 17px;
     position: relative;
-    left: 620px;
-    top: -45px;
+    left: 550px;
+    top: -85px;
+}
+.like {
+    background-color: #E49B0F;
+    border-color: white;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 17px 5px 17px;
+    position: relative;
+    top: -250px;
+    left: 150px;
 }
 .liyah {
     font-size: 48px;
@@ -47,14 +56,14 @@ a {
 }
 .intro {
     overflow-wrap: break-word;
-    max-width: 300px;
+    max-width: 350px;
     font-size: 20px;
     font-family: 'Oswald',Courier,sans-serif;
 }
 .liyah, .intro {
     position: relative;
-    left: ;
-    top: ;
+    left: 150px;
+    top: 100px;
 }
 /* section 2  */
 .two {
@@ -63,12 +72,12 @@ a {
     align-items: center;
     background-color: #F8DE7E;
     /* padding: 40px; */
-    height: 300px;
+    height: 400px;
     /* flex-flow: row wrap; */
 }
 #fun {
     position: absolute;
-    bottom: 250px;
+    bottom: 120px;
     font-family: 'Oswald',Courier,sans-serif;
     font-size: 28px;
 }
