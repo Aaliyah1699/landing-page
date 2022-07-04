@@ -1,28 +1,55 @@
-body{
-    display: flex;
-    flex-direction: column;
+body {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
  } 
+* {
+    margin: 0;
+    padding: 0;
+ }
 /* header section  */
-
+a {
+    text-decoration: none;
+    color: #E49B0F;
+}
+.head, .one {
+    background-color: #F4BB44;
+    margin: ;
+}
 /* section 1  */
-
+#me {
+    max-width: 35%;
+    max-height: 30%;
+    border-radius: 17px;
+    position: relative;
+    left: 550px;
+}
 /* section 2  */
 .two {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F8DE7E;
-    padding: 40px;
+    /* padding: 40px; */
+    height: 300px;
     /* flex-flow: row wrap; */
 }
-
+#fun {
+    position: absolute;
+    bottom: 410px;
+}
 
 .two img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 50%;
+    max-height: 50%;
     margin: 10px;
     border-radius: 5px;
 }
+#pink {
+    border-radius: 10px;
+    max-height: 300px;
+}
+
 /* section 3  */
 .quote {
     background-color: #F3E5AB;
@@ -38,7 +65,7 @@ margin: 40px;
 display: flex;
 align-items: flex-start;
 flex-flow: column wrap;
-padding: 10px;
+padding: 30px;
 position: relative;
 
 
@@ -47,7 +74,7 @@ position: relative;
 .fourth h3 {
     font-family: 'Arima', Courier,sans-serif;
     position: relative;
-    top: 20px;
+    top: -20px;
     left: 110px;
 }
 .fourth p {
@@ -66,13 +93,13 @@ position: relative;
     padding: 5px 17px 5px 17px;
     flex: 1 1 auto;
     position: relative;
-    top: -60px;
+    top: -40px;
     left: -120px;
 }
 /* footer  */
 #footer {
     margin-top: auto;
-    background-color: #F8DE7E;
+    background-color: #F4BB44;
     padding: 20px 10px 20px 10px;
     text-align: center;
     min-width: 1000px;
