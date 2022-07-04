@@ -2,6 +2,7 @@ body {
    background-color: white;
    display: flex;
    flex-direction: column;
+   justify-content: center;
  } 
 * {
     margin: 0;
@@ -10,11 +11,23 @@ body {
 /* header section  */
 a {
     text-decoration: none;
-    color: #E49B0F;
+    color: #8B8000;
+    position: relative;
+    left: 600px;
+    top: -20px;
+    font-size: 18px;
+    padding: 5px;
+}
+.head {
+}
+#a {
+    position: relative;
+    left: 90px;
 }
 .head, .one {
     background-color: #F4BB44;
-    margin: ;
+    color: white;
+    
 }
 /* section 1  */
 #me {
@@ -22,7 +35,19 @@ a {
     max-height: 30%;
     border-radius: 17px;
     position: relative;
-    left: 550px;
+    left: 620px;
+    top: -45px;
+}
+.liyah {
+    font-size: 48px;
+}
+.intro {
+    overflow-wrap: break-word;
+    max-width: 300px;
+    font-size: 20px;
+}
+.liyah, .intro {
+    font-family: ;
 }
 /* section 2  */
 .two {
@@ -36,7 +61,7 @@ a {
 }
 #fun {
     position: absolute;
-    bottom: 410px;
+    bottom: 350px;
 }
 
 .two img {
